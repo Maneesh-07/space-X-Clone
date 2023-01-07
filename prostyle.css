@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+   width: 100%;
+   height: 700px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.page1{
+    height: 750px;
+
+    width:  1519.2px;
+    background-image: url(image3/space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 70px; 
+    position: fixed;  
+}
+.header-1{
+    margin-left: 50px;
+    margin-top: -45px;
+    width: 90%;
+}
+.header-1 img{
+    margin-top: 0px;
+    margin-left: 39px;
+    width: 180px;
+    background-color: transparent;
+}
+.navigation{
+    display: flex;
+    left: 285px;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+.navigation{
+    position: absolute;
+    top: 38px;
+    height: 30px;
+}
+
+.nav-items a:hover{
+    text-decoration: underline;
+}
+
+.nav-items li{
+    position: relative;
+    display: flex;
+    margin: 0 50px;
+    
+}
+.nav-links{
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.nav-items{
+    position: relative;
+    display: flex;
+    margin: 0 15px;
+    
+}
+
+#navigation-right{
+    display: flex;
+    right: 85px;
+    margin-top: 40px;
+}
+.content{
+    margin-left: 140px;
+    margin-top: 0px;
+    position: absolute;
+    bottom: 320px;
+    color: white;
+    height: 50px;
+    
+}
+.content h4{
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+.content h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.content button{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+button:hover{
+   background-color: white;
+   color: black;
+}
+.next{
+    height: 750px;
+    width: 1519.2px;
+    background-image: url(image3/s2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}
+#rocket{
+    margin-left: 127px;
+    position: absolute;
+    top: 1100px;
+    bottom: 0;
+    color: white;
+    height: 50px;
+}
+#rocket h4{
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+#rocket h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.sub{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+.page-3{
+    background-size: cover;
+    height: 750px;
+    width: 1519.2px;
+    background-image: url(image3/s4.webp);
+    
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}
+.rocket-tag{
+    margin-left: 175px;
+    position: relative;
+    top: 250px;
+    bottom: 0;
+    color: white;
+    width: 92px;
+    height: 52px;
+}
+.rocket-tag h4{
+    line-height: 48px;
+    font-size: 40px;
+    margin-bottom: 25px;
+    width: 482px;
+    height: 192px;
+   font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+   text-align: left;
+}
+
+.sub-tag{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+.page-4{
+    position: relative;
+    height: 750px;
+    width: 1519.2px;
+    background-image: url(image3/s5.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}
+.rocket-tag-sub{
+    position:absolute;
+    top: 430px;
+    bottom: 0;
+    color: white;
+    width: 1370px;
+    left: 150px;
+    font-size: 28px;
+    line-height: 70px;
+}
+.rocket-tag-sub h4{
+margin-left: 175px;
+position: relative;
+top: 250px;
+bottom: 0;
+color: white;
+}
+.pin{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+
+}
+.page-5{
+    background-color: black;
+}
+.footer-tag{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.foot-links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 12px;
+}
+#GFG:hover{
+    color: #bfc3c8;
+}
+.foot-items{
+    list-style: none;
+
+}
